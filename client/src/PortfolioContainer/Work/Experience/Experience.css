@@ -1,0 +1,31 @@
+.primary-text{
+    color: white;
+}
+
+.element-text{
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.heading {
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    padding-bottom: 75px;
+    color: white;
+}
+
+/* .experience-container{
+    background-image: url('../../../assets/Home/bg.jpeg');
+} */
+
+.vertical-timeline-element--work:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+.vertical-timeline-element--education:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}

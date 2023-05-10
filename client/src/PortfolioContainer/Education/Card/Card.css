@@ -1,0 +1,58 @@
+.card {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px 1px black;
+}
+
+.upper-container {
+    height: 100px;
+    background-image: url('../../../assets/dc.png');
+    background-size: auto;
+    /* background: linear-gradient(to left, blue, pink); */
+}
+
+.upper-container-nit {
+    height: 100px;
+    background-image: url('../../../assets/nit.jpeg');
+    background-size: auto;
+    /* background: linear-gradient(to left, blue, pink); */
+}
+
+.image-container {
+    /* background: white; */
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(125px, 45px);
+}
+
+
+
+.lower-container {
+    margin-top: 30px;
+    height: 300px;
+    background: white;
+    text-align: center;
+}
+
+.college{
+    font-weight: bolder;
+}
+
+.degree {
+    font-weight: bold;
+}
+
+.time {
+    padding-top: 15px;
+    font-weight: 900;
+}
+
+.coursework {
+    padding-top: 30px;
+    font-weight: 200;
+}

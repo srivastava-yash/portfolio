@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-element {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    align-items: center;
+}  
+
+.heading {
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    padding-bottom: 75px;
+    color: black;
+}
+
+.element-two {
+    float: right;
+    padding-left: 150px;
+}
+
+.primary-text-edu {
+    color: black;
+}

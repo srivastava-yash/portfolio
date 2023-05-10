@@ -3,7 +3,7 @@ import Typical from 'react-typical'
 import './Profile.css'
 
 export default function Profile () {
-  return (
+    return (
     <div className='profile-container'>
         <div className='profile-parent'> 
             <div className='profile-details'>
@@ -48,7 +48,7 @@ export default function Profile () {
                     </span>
                 </div>
                 <div className='profile-options'>
-                    <button className='btn primary-btn'>
+                    <button className='btn primary-btn' onClick={() => window.location = 'mailto:yash.srivastava.gr@dartmouth.edu'}>
                         Hire Me
                     </button>
                     <a href='Yash_Srivastava-Resume.pdf'>
